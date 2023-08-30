@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./output.css">
+  <script src="./scripts.js"></script>
+  <title>Arte en Melamina</title>
+</head>
+<body class="bg-stone-500 mx-auto my-0 pt-1 mb-1 max-w-sm text-center">
+  <div class="relative m-y-auto mb-2">
+    <div class="bg-green-500">
+      <div id="container" class="font-medium text-white"></div>
+    </div>
+  </div>
+  <main class="mb-16 text-center">
+    <h1 class="text-5xl font-extralight align-center font-mono text-white">Arte en Melamina</h1>
+    <h2 class="text-3xl font-thin font-mono text-white">Muebles a medida</h2>
+  </main>
+  <nav>
+    <ul class="flex-column space-y-5 text-center">
+      <li class="">
+        <a href="https://wa.me/+541131425055"><button class="rounded-full w-48 h-12 
+          text-white font-medium bg-slate-700 pd-5 bg-orange-500 hover:bg-white-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-orange-300">CHAT</button></a>
+      </li>
+      <li>
+        <a href="https://instagram.com/arteenmelamina"><button class="rounded-full w-48 h-12 text-white font-medium bg-slate-700 pd-5 bg-orange-500 hover:bg-white-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-orange-300">PROYECTOS</button></a>
+      </li>
+      <li>
+        <button class="rounded-full w-48 h-12 text-white font-medium bg-slate-700 pd-5 bg-orange-500 hover:bg-white-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-orange-300" id="btn-mostrar" onclick="mostrar();">AGENDAR</button>
+        
+      </li>
+
+      <div id="modal" class="hidden">
+        <button class="text-white" id="btn-cerrar" onclick="ocultar();">cerrar</button>
+      <!-- Google Calendar Appointment Scheduling begin -->
+      <iframe class="bg-white rounded-2xl" src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ12sV_XMX9C5qSHNe2c6L0lDomLAGCs3lPaCdqTPqyonAIIvfosmVSxMJowqRTk2Mdx1VnXFJK5?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
+      <!-- end Google Calendar Appointment Scheduling -->
+      
+      </div>
+      <li>
+        <a href="https://arte-en-melamina.negocio.site/#testimonials"><button class="rounded-full w-48 h-12 text-white font-medium bg-slate-700 pd-5 bg-orange-500 hover:bg-white-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-orange-300">OPINIONES</button></a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="flex mt-16 mb-16 mx-5">
+    <p class=" flex-row text-white font-thin text-xl">muebles de cocina placares modulares escritorios muebles deco cama mesas arquitectura muebles de parrilla mueble organizador módulos espejos </p>
+    <p class="flex-row text-white font-thin text-xl">muebles de cocina placares modulares escritorios muebles deco cama mesas arquitectura muebles de parrilla mueble organizador módulos espejos </p>
+  </div>
+  
+
+
+
+  <footer class="flex mt-24 bg-slate-700">
+    <div class="flex-auto w-24">
+      <img class="w-24 h-24" src="http://imgfz.com/i/8c0NBdA.jpeg" />
+    </div>
+    <p class="flex-auto w-48 text-justify p-2 text-orange-400">2023. Arte en Melamina carpinteria. Todos los derechos reservados.</p>
+    <p class="flex-auto w-28 text-center p-2 bg-stone-900 text-orange-400">Developed by <a href="https://chrisag-portfolio.netlify.app" class="font-bold">Chris Aguirre</a></p>
+  </footer>
+  <p class="font-thin">Version 1.0.0</p>
+  
+</body>
+</html>
