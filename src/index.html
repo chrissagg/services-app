@@ -39,8 +39,14 @@
       
       </div>
       <li>
-        <a href="https://arte-en-melamina.negocio.site/#testimonials"><button class="rounded-full w-48 h-12 text-white font-medium bg-slate-700 pd-5 bg-orange-500 hover:bg-white-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-orange-300">OPINIONES</button></a>
+        <button class="rounded-full w-48 h-12 text-white font-medium bg-slate-700 pd-5 bg-orange-500 hover:bg-white-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-orange-300"  id="btn-mostrar" onclick="mostrar2();">OPINIONES</button>
       </li>
+      <div id="modal2" class="hidden">
+        <button class="text-white" id="btn-cerrar" onclick="ocultar2();">cerrar</button>
+        <div class='sk-ww-google-reviews' data-embed-id='187426'>
+    
+        </div>
+      </div>
     </ul>
   </nav>
 
@@ -49,8 +55,6 @@
     <p class="flex-row text-white font-thin text-xl">muebles de cocina placares modulares escritorios muebles deco cama mesas arquitectura muebles de parrilla mueble organizador módulos espejos </p>
   </div>
   
-
-
 
   <footer class="flex mt-24 bg-slate-700">
     <div class="flex-auto w-24">
@@ -61,5 +65,8 @@
   </footer>
   <p class="font-thin">Version 1.1.0</p>
   
+
+  
+  <script src='https://widgets.sociablekit.com/google-reviews/widget.js' async defer></script>
 </body>
 </html>

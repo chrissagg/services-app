@@ -34,3 +34,13 @@ function mostrar() {
 function ocultar() {
   document.getElementById('modal').style.display = 'none'
 }
+
+// embebed reviews from google by SociableKIT
+
+function mostrar2() {
+  document.getElementById('modal2').style.display = 'block'
+}
+
+function ocultar2() {
+  document.getElementById('modal2').style.display = 'none'
+}
